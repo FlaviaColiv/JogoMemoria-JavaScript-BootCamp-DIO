@@ -50,7 +50,6 @@ h2 {
 }
 
 .game {
-    border: 1px solid red;
     width: 430px;
     height: 430px;
     display: flex;
@@ -69,7 +68,7 @@ h2 {
     justify-content: center;
     background-color: #ffffff;
 
-    font-size: 3em;
+    font-size: 5em;
     transform: rotateY(180deg);
     transition: 0.25s;
 }
@@ -78,12 +77,10 @@ h2 {
     content: "";
     position: absolute;
     inset: 0;
-    background: #404040;
+    background: url('../images/2023.11.13-04.17.42.png');
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
-
-    opacity: 70%;
 }
 
 .item.boxOpen {
