@@ -82,6 +82,8 @@ h2 {
     transition: 0.25s;
     transform: rotateY(0deg);
     backface-visibility: hidden;
+
+    opacity: 70%;
 }
 
 .item.boxOpen {
